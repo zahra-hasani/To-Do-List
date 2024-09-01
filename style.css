@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: #eacee4;
+    width: 50%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.415);
+    border-radius: 28px;
+    margin-top: 20px;
+}
+.titr{
+    text-align: center;
+    font-size: 3rem;
+    color: #4f2a4c;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 46px;
+}
+.input-container{
+  display: flex;
+  justify-content: center;
+  padding-top: 48px;
+  gap: 8px;
+}
+.button{
+  background-color: #4f2a4c;
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.input{
+  border: none;
+  border-radius: 8px;
+  width: 50%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  padding-right: 8px;
+  font-size: 1rem;
+  color: #7a4e77;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+.container ul{
+  margin-top: 40px;
+  padding-bottom: 18px;
+}
+.container li{
+  padding: 0 20px;
+  width: 60%;
+  height: 48px;
+  background-color: white;
+  border: 1px solid #835080;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  margin-top: 8px;
+  margin-right: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #835080;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.container li .delete-btn{
+  background-color: white;
+  border-radius: none;
+  border: none;
+  color: #835080;
+}
+@media (max-width: 600px) {
+  .container{
+    width: 96%;
+    border-radius: 22px;
+  }   
+  .titr{
+    font-size: 2.6rem;
+  }
+  .input-container{
+    padding-top: 26px;
+    gap: 6px;
+  }
+  .input{
+    border-radius: 6px;
+    width: 60%;
+    font-weight: 600;
+  }
+  .button{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+
+  }
+  .container ul{
+    margin-top: 32px;
+
+  }
+  .container li{
+    padding: 0 16px;
+    width: 68%;
+    height: 38px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+}
